@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,8 +8,6 @@ public class camera : MonoBehaviour
 	public Vector3 offset;
 	public float smoothspeed;
 	
-	
-	// LateUpdate is called every frame, if the Behaviour is enabled.
 	protected void LateUpdate()
 	{
 		Vector3 diseredposition = player.position + offset;
